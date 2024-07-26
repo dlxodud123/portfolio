@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+import {Route, Routes} from 'react-router-dom';
+import Potfolio from './potfolio';
 function App() {
   return (
+    <>
     <h1>리액트 프로젝트 배포</h1>
+    <Routes>
+<Route path='/' element={<Potfolio></Potfolio>}></Route>
+    </Routes>
+    </>
   );
 }
 
