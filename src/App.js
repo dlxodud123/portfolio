@@ -7,7 +7,7 @@ function App() {
     <>
     <h1>리액트 프로젝트 배포</h1>
     <Routes>
-<Route path='/' element={<Potfolio></Potfolio>}></Route>
+<Route path='/potfolio' element={<Potfolio></Potfolio>}></Route>
     </Routes>
     </>
   );
