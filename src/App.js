@@ -7,7 +7,7 @@ function App() {
     <>
     <h1>리액트 프로젝트 배포 김준형</h1>
     <Routes>
-<Route path='/potfolio/aaa' element={<Potfolio></Potfolio>}></Route>
+      <Route path='/potfolio' element={<Potfolio></Potfolio>}></Route>
     </Routes>
     </>
   );
