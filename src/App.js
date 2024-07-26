@@ -5,7 +5,7 @@ import Potfolio from './potfolio';
 function App() {
   return (
     <>
-    <h1>리액트 프로젝트 배포123123123</h1>
+    <h1>리액트 프로젝트 배포 김준형</h1>
     <Routes>
 <Route path='/potfolio' element={<Potfolio></Potfolio>}></Route>
     </Routes>

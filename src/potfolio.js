@@ -1,6 +1,6 @@
 function Potfolio(){
     return(
-        <p>dsfsdfsdf</p>
+        <p>dsfsdfsdf 김준형</p>
     )
 }
 
