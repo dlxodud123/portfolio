@@ -1,7 +1,7 @@
+import './../css/header.css';
 import React from 'react';
-import "./App.css";
 
-function Header({ onAboutMeClick }) {
+const Header = ({ onAboutMeClick }) => {
   return (
     <div className="header_container">
       <div className="header">

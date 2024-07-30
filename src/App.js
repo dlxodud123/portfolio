@@ -1,14 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import {Route, Routes} from 'react-router-dom';
-import Potfolio from './potfolio';
-import Header from './header';
+import Potfolio_form from './main/js/potfolio_form';
+
 function App() {
   return (
     <>
-    <Routes>
-      <Route path='/potfolio' element={<Potfolio></Potfolio>}></Route>
-    </Routes>
+      <div className='App'>
+        <Routes>
+          <Route path='/potfolio' element={<Potfolio_form></Potfolio_form>}></Route>
+        </Routes>
+      </div>
     </>
   );
 }

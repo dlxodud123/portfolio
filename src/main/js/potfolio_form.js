@@ -1,10 +1,10 @@
+import './../css/potfolio_form.css';
 import React, { useRef } from 'react';
 import Header from "./header";
 import Aboutme from "./aboutme";
-import "./App.css";
 import Skill from './skill';
 
-function Potfolio() {
+const Potfolio_form = () => {
   const aboutMeRef = useRef(null);
 
   const handleAboutMeClick = () => {
@@ -26,4 +26,4 @@ function Potfolio() {
   );
 }
 
-export default Potfolio;
+export default Potfolio_form;
