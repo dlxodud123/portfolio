@@ -1,6 +1,6 @@
-.skill_img{
+.activites_img{
     transition: transform 0.3s ease;
 }
-.skill_img:hover {
+.activites_img:hover {
     transform: scale(1.05); /* Scale up the image */
   }

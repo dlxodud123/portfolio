@@ -3,6 +3,9 @@ import React, { useRef } from 'react';
 import Header from "./header";
 import Aboutme from "./aboutme";
 import Skill from './skill';
+import Archiving from './archiving';
+import Project from './project';
+import Activities from './activities';
 
 const Potfolio_form = () => {
   const aboutMeRef = useRef(null);
@@ -21,7 +24,9 @@ const Potfolio_form = () => {
       </div>
       <Aboutme ref={aboutMeRef} />
       <Skill></Skill>
-      
+      <Archiving></Archiving>    
+      <Project></Project>  
+      <Activities></Activities>
     </>
   );
 }
