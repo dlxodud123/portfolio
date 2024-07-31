@@ -1,9 +1,10 @@
+import { forwardRef } from 'react';
 import './../css/archiving.css';
 
-const Archiving = () => {
+const Archiving = forwardRef((props, ref) => {
     return(
         <>
-            <div style={{background:'#212529', height:'750px'}}>
+            <div ref={ref} style={{background:'#212529', height:'750px'}}>
                 <div style={{width:"500px", margin:"auto"}}>
                     <div style={{textAlign:'center',fontSize:'55px',paddingTop:'30px',borderBottom:'1px solid gray',width:'300px', margin:'auto', fontWeight:"bold", height:"90px", color:"white"}}>ARCHIVING</div>
                 </div>
@@ -68,6 +69,6 @@ const Archiving = () => {
             </div>
         </>
     )
-}
+});
 
 export default Archiving;

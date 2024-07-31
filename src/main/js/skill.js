@@ -1,9 +1,29 @@
+import { forwardRef } from 'react';
 import './../css/skill.css';
+import SkillBar from './skillbar';
 
-const Skill = () => {
+const skills = [
+    { skill: 'HTML5', level: 80 },
+    { skill: 'CSS3', level: 80 },
+    { skill: 'JavaScript', level: 60 },
+    { skill: 'TypeScript', level: 30 },
+    { skill: 'jQuery', level: 30 },
+    { skill: 'React', level: 70 },
+    { skill: 'React Query', level: 30 },
+    { skill: 'Bootstrap', level: 60 },
+    { skill: 'JAVA', level: 50 },
+    { skill: 'Spring', level: 40 },
+    { skill: 'node.js', level: 50 },
+    { skill: 'Oracle', level: 30 },
+    { skill: 'Git', level: 40 },
+    { skill: 'Github', level: 40 },
+  ];
+
+const Skill = forwardRef((props, ref) => {
+
     return(
         <>
-            <div style={{background:'#ffc107', height:'1280px'}}>
+            <div ref={ref} style={{background:'#ffc107', height:'2100px'}}>
                 <div style={{width:"500px", margin:"auto"}}>
                     <div style={{textAlign:'center',fontSize:'55px',paddingTop:'30px',borderBottom:'1px solid gray',width:'300px', margin:'auto', fontWeight:"bold", height:"90px"}}>SKILLS</div>
                 </div>
@@ -15,11 +35,11 @@ const Skill = () => {
                             </div>
                             <div style={{display:'flex',margin:'30px auto auto auto', width:"420px"}}>
                                 <div className='skill_img' style={{backgroundColor:'white',width:'130px', height:"150px", border:"1px solid rgba(0,0,0,0.1)", borderRadius:"15px"}}>
-                                    <img style={{width:'100px',height:'120px', marginTop:"10px"}} src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_css.png`} alt='css'></img>
+                                    <img style={{width:'130px',height:'120px', marginTop:"10px"}} src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_html.png`} alt='html'></img>
                                 </div>
                                 <div style={{width:"10px"}}></div>
                                 <div className='skill_img' style={{backgroundColor:'white',width:'130px', height:"150px", border:"1px solid rgba(0,0,0,0.1)", borderRadius:"15px"}}>
-                                    <img style={{width:'130px',height:'120px', marginTop:"10px"}} src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_html.png`} alt='html'></img>
+                                    <img style={{width:'100px',height:'120px', marginTop:"10px"}} src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_css.png`} alt='css'></img>
                                 </div>
                                 <div style={{width:"10px"}}></div>
                                 <div className='skill_img' style={{backgroundColor:'white',width:'130px', height:"150px", border:"1px solid rgba(0,0,0,0.1)", borderRadius:"15px"}}>
@@ -100,9 +120,16 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
+                <div style={{margin:"auto", width:"1750px"}}>
+                    <div className="skill-chart">
+                        {skills.map((skillObj, index) => (
+                            <SkillBar key={index} skill={skillObj.skill} level={skillObj.level} />
+                        ))}
+                    </div>
+                </div>
             </div>
         </>
     )
-}
+});
 
 export default Skill;

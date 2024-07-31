@@ -1,9 +1,10 @@
+import { forwardRef } from 'react';
 import './../css/project.css';
 
-const Project = () => {
+const Project = forwardRef((props, ref) => {
     return(
         <>
-            <div style={{background:'#1d809f', height:'1500px'}}>
+            <div ref={ref} style={{background:'#1d809f', height:'1500px'}}>
                 <div style={{width:"500px", margin:"auto"}}>
                     <div style={{textAlign:'center',fontSize:'55px',paddingTop:'30px',borderBottom:'1px solid gray',width:'300px', margin:'auto', fontWeight:"bold", height:"90px", color:"white"}}>PROJECTS</div>
                 </div>
@@ -19,6 +20,6 @@ const Project = () => {
             </div>
         </>
     )
-}
+});
 
 export default Project;

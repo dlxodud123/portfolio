@@ -2,4 +2,20 @@
     background-color: black;
     width: 100%;
     margin: 0 auto;
-  }
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.scroll-to-top:hover {
+  background-color: #555;
+}
