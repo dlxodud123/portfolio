@@ -8,6 +8,7 @@ import Archiving from './archiving';
 import Project from './project';
 import Activities from './activities';
 import { FaArrowUp } from "react-icons/fa6";
+import End from './end.js';
 
 const Potfolio_form = () => {
   const aboutMeRef = useRef(null);
@@ -41,6 +42,7 @@ const Potfolio_form = () => {
       <Archiving ref={archivingRef} />    
       <Project ref={projectRef} />  
       <Activities ref={activitiesRef} />
+      <End />
       <button onClick={handleScrollToTop} className="scroll-to-top"><FaArrowUp size={40} /></button>
     </>
   );
