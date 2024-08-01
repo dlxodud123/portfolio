@@ -1,6 +1,9 @@
 import { forwardRef } from 'react';
 import './../css/skill.css';
 import SkillBar from './skillbar';
+import styled from 'styled-components';
+
+
 
 const skills = [
     { skill: 'HTML5', level: 80 },
