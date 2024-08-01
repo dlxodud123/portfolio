@@ -1,11 +1,13 @@
 import './../css/potfolio_form.css';
 import React, { useRef } from 'react';
 import Header from "./header";
+import Top from './top';
 import Aboutme from "./aboutme";
 import Skill from './skill';
 import Archiving from './archiving';
 import Project from './project';
 import Activities from './activities';
+import { FaArrowUp } from "react-icons/fa6";
 
 const Potfolio_form = () => {
   const aboutMeRef = useRef(null);
@@ -33,15 +35,13 @@ const Potfolio_form = () => {
         onProjectClick={() => handleScrollTo(projectRef)}
         onActivitiesClick={() => handleScrollTo(activitiesRef)} 
       />
-      <div className="header_container">
-        <div style={{ backgroundColor: 'black', width: '1280px', height: '935px' }}></div>
-      </div>
+      <Top></Top>
       <Aboutme ref={aboutMeRef} />
       <Skill ref={skillsRef} />
       <Archiving ref={archivingRef} />    
       <Project ref={projectRef} />  
       <Activities ref={activitiesRef} />
-      <button onClick={handleScrollToTop} className="scroll-to-top">Top</button>
+      <button onClick={handleScrollToTop} className="scroll-to-top"><FaArrowUp size={40} /></button>
     </>
   );
 }
