@@ -35,7 +35,7 @@ const Potfolio_form = () => {
         onProjectClick={() => handleScrollTo(projectRef)}
         onActivitiesClick={() => handleScrollTo(activitiesRef)} 
       />
-      <Top></Top>
+      <Top />
       <Aboutme ref={aboutMeRef} />
       <Skill ref={skillsRef} />
       <Archiving ref={archivingRef} />    
