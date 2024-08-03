@@ -47,6 +47,10 @@
   .top_container {
       height: 1280px;
   }
+  .MainContainer{
+    width: 1200px;
+
+  }
 }
 
 @media (max-width: 992px) {
@@ -55,6 +59,9 @@
   }
   .top_container {
       height: 1280px;
+  }
+  .MainContainer{
+    width: 992px;
   }
 }
 
@@ -65,13 +72,8 @@
   .top_container {
       height: 1280px;
   }
+  .MainContainer{
+    width: 768px;
+  }
 }
 
-@media (max-width: 576px) {
-  .top-text {
-      font-size: 30px;
-  }
-  .top_container {
-      height: 1280px;
-  }
-}
