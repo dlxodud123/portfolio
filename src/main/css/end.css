@@ -11,13 +11,21 @@
     background: #FFFFFF;
     height: 1000px;
     position: relative;
+    /* 이미지 경로 설정 */
+    background-size: cover; /* 컨테이너를 덮도록 설정 */
+    background-position: center; /* 중앙에 배치 */
+    background-repeat: no-repeat; /* 이미지 반복 없음 */
 }
 
-.end-background {
+/* .end-background {
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
 
 .end-main-text {
     z-index: 1;
@@ -76,4 +84,3 @@
         font-size: 60px;
     }
 }
-

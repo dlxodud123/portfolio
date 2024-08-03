@@ -2,6 +2,7 @@
     background-color: black;
     width: 100%;
     margin: 0 auto;
+    position: relative; /* 부모 컨테이너에 상대적 위치 설정 */
 }
 .scroll-to-top {
   height: 75px;

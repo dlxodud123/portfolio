@@ -4,9 +4,10 @@
 .activites_img:hover {
     transform: scale(1.05); 
   } */
+ 
   .activities-container {
     background: rgba(107, 142, 35, 0.8);
-    height: 1500px;
+    height: auto; /* 높이를 자동으로 설정하여 내용에 맞추도록 변경 */
     padding: 50px;
 }
 
@@ -33,7 +34,7 @@
 .activities-card {
     background-color: #ffffff;
     width: 80%;
-    height: 150px;
+    height: auto; /* 높이를 자동으로 설정하여 내용에 맞추도록 변경 */
     box-shadow: 1rem 1rem 1rem 1rem rgb(68 68 68 / 20%);
     border-radius: 30px;
     margin-top: 30px;
@@ -121,4 +122,3 @@
         font-size: 18px;
     }
 }
-
