@@ -23,3 +23,55 @@
   color: rgba(0, 0, 0, 1);
   border: 5px solid rgba(0, 0, 0, 1);
 }
+
+.top-text {
+  font-size: 150px; /* 초기 폰트 크기 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  animation: fadeIn 3s ease-in-out;
+  width: 100%; /* 초기 너비 설정 */
+  max-width: 100%;
+}
+
+/* 특정 클래스에 대한 미디어 쿼리 */
+@media (max-width: 1200px) {
+  .top-text {
+      font-size: 120px;
+  }
+  .top_container {
+      height: 1280px;
+  }
+}
+
+@media (max-width: 992px) {
+  .top-text {
+      font-size: 90px;
+  }
+  .top_container {
+      height: 1280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-text {
+      font-size: 60px;
+  }
+  .top_container {
+      height: 1280px;
+  }
+}
+
+@media (max-width: 576px) {
+  .top-text {
+      font-size: 30px;
+  }
+  .top_container {
+      height: 1280px;
+  }
+}

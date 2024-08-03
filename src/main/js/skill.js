@@ -1,4 +1,4 @@
-import { forwardRef } from 'react';
+import { forwardRef, useEffect, useRef, useState } from 'react';
 import './../css/skill.css';
 import SkillBar from './skillbar';
 import styled from 'styled-components';
@@ -23,11 +23,35 @@ const skills = [
   ];
 
 const Skill = forwardRef((props, ref) => {
+    const [isInView, setIsInView] = useState(false);
+    const skillRef = useRef(null);
 
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+          ([entry]) => {
+            if (entry.isIntersecting) {
+              setIsInView(true);
+              observer.unobserve(skillRef.current); // 애니메이션 후 감시 중지
+            }
+          },
+          { threshold: 0.1 } // 요소의 10%가 보이면 트리거
+        );
+    
+        if (skillRef.current) {
+          observer.observe(skillRef.current);
+        }
+    
+        return () => {
+          if (skillRef.current) {
+            observer.unobserve(skillRef.current);
+          }
+        };
+      }, []);
+    
     return(
         <>
             <div ref={ref} style={{background:'#ffc107', height:'2100px'}}>
-                <div style={{width:"500px", margin:"auto"}}>
+                <div ref={skillRef} style={{width:"500px", margin:"auto"}}>
                     <div style={{textAlign:'center',fontSize:'55px',paddingTop:'30px',borderBottom:'1px solid gray',width:'300px', margin:'auto', fontWeight:"bold", height:"90px"}}>SKILLS</div>
                 </div>
                 <div style={{display:"flex", margin:"auto", width:"1750px"}}>
@@ -126,7 +150,7 @@ const Skill = forwardRef((props, ref) => {
                 <div style={{margin:"auto", width:"1750px"}}>
                     <div className="skill-chart">
                         {skills.map((skillObj, index) => (
-                            <SkillBar key={index} skill={skillObj.skill} level={skillObj.level} />
+                            <SkillBar key={index} skill={skillObj.skill} level={skillObj.level} isInView={isInView} />
                         ))}
                     </div>
                 </div>
