@@ -247,7 +247,7 @@ const skills = [
               <div className="skill-title">Certificate</div>
               <div className="skill-imgs">
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/certificate/qq.png`} alt='qnet' /></div>
-                <div className="skill_desc">정보처리산업기사 (필기 + 실기)</div>
+                {/* <div className="skill_desc">정보처리산업기사 (필기 + 실기)</div> */}
               </div>
             </div>
           </div>
