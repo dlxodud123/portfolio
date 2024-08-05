@@ -4,9 +4,12 @@ const Top = () => {
     return(
         <>
             <div className='top_container'>
-                <p className='top-text'>
-                    자기소개 글 짧게 한줄로!
+                <p className='top-text' style={{fontSize:'100px'}}>
+                  안녕하세요.<br></br>
+                프론트 엔드 개발자 김재환입니다.
+                
                 </p>
+           
             </div>
         </>
     )

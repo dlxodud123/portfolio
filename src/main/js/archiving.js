@@ -85,7 +85,7 @@ const Archiving = forwardRef((props, ref) => {
                         <img src={`${process.env.PUBLIC_URL}/img/version_control/github.png`} alt='github' />
                     </div>
                     <div className="archive-link">
-                        <a className='address' href='https://github.com' >github.com</a>
+                        <a className='address' href='https://github.com/KimJaeHwan98' >https://github.com/KimJaeHwan98</a>
                     </div>
                     <div className="archive-desc">
                         <label className='no-hover'>소스 코드 저장소</label>입니다.

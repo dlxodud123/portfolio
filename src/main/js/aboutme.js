@@ -93,7 +93,7 @@ const Aboutme = forwardRef((props, ref) => {
           <div className="icon"><IoPerson size={50} /></div>
           <div> 
             <div className="label">이름</div>
-            <div className="value">홍길동</div>
+            <div className="value">김재환</div>
           </div>
         </div>
 
@@ -101,7 +101,7 @@ const Aboutme = forwardRef((props, ref) => {
           <div className="icon"><IoCalendarClear size={50} /></div>
           <div> 
             <div className="label">생년월일</div>
-            <div className="value">00.11.22</div>
+            <div className="value">98.09.21</div>
           </div>
         </div>
 
@@ -109,7 +109,7 @@ const Aboutme = forwardRef((props, ref) => {
           <div className="icon"><FaMapMarkerAlt size={50} /></div>
           <div> 
             <div className="label">주소지</div>
-            <div className="value">서울특별시 강남구</div>
+            <div className="value">경기도 부천시 상동</div>
           </div>
         </div>
 
@@ -117,7 +117,7 @@ const Aboutme = forwardRef((props, ref) => {
           <div className="icon"><IoCall size={50} /></div>
           <div>
             <div className="label">연락처</div>
-            <div className="value">010-1234-5678</div>
+            <div className="value">010-8587-9302</div>
           </div>
         </div>
 
@@ -125,7 +125,7 @@ const Aboutme = forwardRef((props, ref) => {
           <div className="icon"><MdEmail size={50} /></div>
           <div> 
             <div className="label">이메일</div>
-            <div className="value">qwer@naver.com</div>
+            <div className="value">jawhan98@naver.com</div>
           </div>
         </div>
 
@@ -133,8 +133,8 @@ const Aboutme = forwardRef((props, ref) => {
           <div className="icon"><BsFillPencilFill size={50} /></div>
           <div> 
             <div className="label">학력</div>
-            <div className="value">서울대학교</div>
-            <div className="value">(컴퓨터공학부)</div>
+            <div className="value">중원고등학교</div>
+            <div className="value">(인문계)</div>
           </div>
         </div>
       </div>
