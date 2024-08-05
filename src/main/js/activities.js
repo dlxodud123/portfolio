@@ -81,12 +81,12 @@ const Activities = forwardRef((props, ref) => {
                         코딩 애플 React 강의 수료
                     </div>
                 </div>
-                <div className="activities-card" onClick={() => { window.location.href = 'http://www.codingapple.com/' }}>
+                <div className="activities-card" onClick={() => { window.location.href = 'https://codingapple.com/course/html-basics/' }}>
                     <div className="activities-img">
                         <img src={`${process.env.PUBLIC_URL}/img/activities/코딩애플.png`} alt='coding apple typescript' />
                     </div>
                     <div className="activities-description">
-                        코딩 애플 TypeScript 강의 수료
+                        코딩 애플 HTML/CSS 강의 수료
                     </div>
                 </div>
             </div>

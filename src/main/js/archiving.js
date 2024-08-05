@@ -96,7 +96,7 @@ const Archiving = forwardRef((props, ref) => {
                         <li>학부 시절 수강한 수업들의 코딩 과제 소스 코드</li>
                     </ul>
                 </div>
-
+{/* 
                 <div className='archive-card'>
                     <div className="archive-img">
                         <img src={`${process.env.PUBLIC_URL}/img/archiving/tstory.png`} alt='tistory' />
@@ -113,7 +113,7 @@ const Archiving = forwardRef((props, ref) => {
                         <li>학부 시절 배운 전공 수업들의 내용 복습 및 정리</li>
                         <li>지식 공유를 통한 선한 영향력 행사</li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     )

@@ -7,7 +7,7 @@ function App() {
     <>
       <div className='App'>
         <Routes>
-          <Route path='/potfolio' element={<Potfolio_form></Potfolio_form>}></Route>
+          <Route path='/portfolio' element={<Potfolio_form></Potfolio_form>}></Route>
         </Routes>
       </div>
     </>
