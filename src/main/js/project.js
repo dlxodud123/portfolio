@@ -75,7 +75,7 @@ const Project = forwardRef((props, ref) => {
                         <img src={`${process.env.PUBLIC_URL}/img/project/project2.png`} alt='project1' />
                     </div>
                     <div className="project-card-desc">
-                       협업 툴 프로젝트(Node.js)<br />
+                       협업 툴 프로젝트<br />
                         <label>2024.04.11 ~ 2024.04.25</label>
                         <p>협업 툴 프로젝트 진행하였습니다.(node.js)</p>
                         <p>깃허브 소스 코드 : </p>
@@ -91,7 +91,7 @@ const Project = forwardRef((props, ref) => {
                     <div className="project-card-desc">
                         포트폴리오 프로젝트<br />
                         <label>2024.07.25 ~ 2024.07.30</label>
-                        <p>입사지원 포트폴리오 제작 프로젝트 진행하였습니다.</p>
+                        <p>입사지원 포트폴리오 제작 프로젝트 진행하였습니다.(React)</p>
                         <p>깃허브 소스 코드 : </p>
                         <a className='address' href='https://github.com/KimJaeHwan98/portfolio' >https://github.com/KimJaeHwan98/portfolio</a>
                     </div>
