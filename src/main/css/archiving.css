@@ -61,7 +61,7 @@
 
 .archive-img {
     width: 580px;
-    margin: auto;
+    margin-left: 20px;
     text-align: left;
     height: 145px;
 }
@@ -75,13 +75,14 @@
 .archive-link {
     width: 525px;
     text-align: left;
-    margin: auto;
+    margin-left: 45px;
 }
 
 .archive-desc {
     width: 525px;
     text-align: left;
-    margin: 25px auto auto auto;
+    margin-top: 25px;
+    margin-left: 40px;
     font-size: 23px;
 }
 

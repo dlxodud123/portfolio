@@ -79,7 +79,7 @@ const End = forwardRef((props, ref) => {
               src={`${process.env.PUBLIC_URL}/img/background/background.png`} 
               alt='background' 
           /> */}
-           <p className="end-main-text" >
+            <p className="end-main-text" >
         감사합니다!
       </p>
       <p className="end-sub-text" 

@@ -71,7 +71,7 @@ const Header = ({onAboutMeClick, onSkillsClick, onArchivingClick, onProjectClick
             <HeaderContainer>
               <div className="header_container2">
                 <div className="header2">
-                  <p className="header_title2">KJH's Portfolio</p>
+                  <p className="header_title2">LTY's Portfolio</p>
                   <div className="nav">
                     <p className="nav_item2" onClick={onAboutMeClick}>About Me</p>
                     <p className="nav_item2" onClick={onSkillsClick}>Skills</p>
@@ -87,7 +87,7 @@ const Header = ({onAboutMeClick, onSkillsClick, onArchivingClick, onProjectClick
           <>
             <div className="header_container">
               <div className="header">
-                <p className="header_title">KJH's Portfolio</p>
+                <p className="header_title">LTY's Portfolio</p>
                 <div className="nav">
                   <p className="nav_item" onClick={onAboutMeClick}>About Me</p>
                   <p className="nav_item" onClick={onSkillsClick}>Skills</p>

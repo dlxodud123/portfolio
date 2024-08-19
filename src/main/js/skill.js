@@ -3,15 +3,13 @@ import './../css/skill.css';
 import SkillBar from './skillbar';
 import styled from 'styled-components';
 
-
-
 // const skills = [
 //     { skill: 'HTML5', level: 80 },
 //     { skill: 'CSS3', level: 80 },
-//     { skill: 'JavaScript', level: 60 },
-//     { skill: 'TypeScript', level: 30 },
-//     { skill: 'jQuery', level: 30 },
-//     { skill: 'React', level: 70 },
+//     { skill: 'JavaScript', level: 70 },
+//     { skill: 'TypeScript', level: 20 },
+//     { skill: 'jQuery', level: 20 },
+//     { skill: 'React', level: 60 },
 //     { skill: 'React Query', level: 30 },
 //     { skill: 'Bootstrap', level: 60 },
 //     { skill: 'JAVA', level: 50 },
@@ -50,13 +48,13 @@ import styled from 'styled-components';
     
 //     return(
 //         <>
-//             <div ref={ref} style={{background:'#ffc107', height:'2100px'}}>
+//             <div ref={ref} style={{background:'#ffc107', height:'2400px'}}>
 //                 <div ref={skillRef} style={{width:"500px", margin:"auto"}}>
 //                     <div style={{textAlign:'center',fontSize:'55px',paddingTop:'30px',borderBottom:'1px solid gray',width:'300px', margin:'auto', fontWeight:"bold", height:"90px"}}>SKILLS</div>
 //                 </div>
 //                 <div style={{display:"flex", margin:"auto", width:"1750px"}}>
 //                     <div style={{textAlign:'center', width:"550px"}}>
-//                         <div style={{backgroundColor:'#ffffff',width:'550px',height:'1000px',boxShadow:'1rem 1rem 1rem 1rem rgb(68 68 68 / 20%)',borderRadius:'30px', marginTop:"50px"}}>
+//                         <div style={{backgroundColor:'#ffffff',width:'550px',height:'1120px',boxShadow:'1rem 1rem 1rem 1rem rgb(68 68 68 / 20%)',borderRadius:'30px', marginTop:"50px"}}>
 //                             <div style={{borderBottom:'1px solid rgba(0,0,0,0.2)', height:"100px", width:"420px", margin:"auto", overflow:"hidden"}}>
 //                                 <div style={{fontSize:'35px',paddingTop:'40px', color:"#F4623A", fontWeight:"bold", textAlign:"left"}}>FrontEnd</div>
 //                             </div>
@@ -95,7 +93,7 @@ import styled from 'styled-components';
 //                     </div>
 //                     <div style={{width:"50px"}}></div>
 //                     <div style={{textAlign:'center', width:"550px"}}>
-//                         <div style={{backgroundColor:'#ffffff',width:'550px',height:'840px',boxShadow:'1rem 1rem 1rem 1rem rgb(68 68 68 / 20%)',borderRadius:'30px', marginTop:"50px"}}>
+//                         <div style={{backgroundColor:'#ffffff',width:'550px',height:'910px',boxShadow:'1rem 1rem 1rem 1rem rgb(68 68 68 / 20%)',borderRadius:'30px', marginTop:"50px"}}>
 //                             <div style={{borderBottom:'1px solid rgba(0,0,0,0.2)', height:"100px", width:"420px", margin:"auto", overflow:"hidden"}}>
 //                                 <div style={{fontSize:'35px',paddingTop:'40px', color:"#F4623A", fontWeight:"bold", textAlign:"left"}}>Backend</div>
 //                             </div>
@@ -117,7 +115,7 @@ import styled from 'styled-components';
 //                     <div>
 //                         <div>
 //                             <div style={{textAlign:'center', width:"550px"}}>
-//                                 <div style={{backgroundColor:'#ffffff',width:'550px',height:'500px',boxShadow:'1rem 1rem 1rem 1rem rgb(68 68 68 / 20%)',borderRadius:'30px', marginTop:"50px"}}>
+//                                 <div style={{backgroundColor:'#ffffff',width:'550px',height:'520px',boxShadow:'1rem 1rem 1rem 1rem rgb(68 68 68 / 20%)',borderRadius:'30px', marginTop:"50px"}}>
 //                                     <div style={{borderBottom:'1px solid rgba(0,0,0,0.2)', height:"100px", width:"420px", margin:"auto", overflow:"hidden"}}>
 //                                         <div style={{fontSize:'35px',paddingTop:'40px', color:"#F4623A", fontWeight:"bold", textAlign:"left"}}>Version Control</div>
 //                                     </div>
@@ -132,7 +130,7 @@ import styled from 'styled-components';
 //                         </div>
 //                         <div>
 //                             <div style={{textAlign:'center', width:"550px"}}>
-//                                 <div style={{backgroundColor:'#ffffff',width:'550px',height:'340px',boxShadow:'1rem 1rem 1rem 1rem rgb(68 68 68 / 20%)',borderRadius:'30px', marginTop:"50px"}}>
+//                                 <div style={{backgroundColor:'#ffffff',width:'550px',height:'360px',boxShadow:'1rem 1rem 1rem 1rem rgb(68 68 68 / 20%)',borderRadius:'30px', marginTop:"50px"}}>
 //                                     <div style={{borderBottom:'1px solid rgba(0,0,0,0.2)', height:"100px", width:"420px", margin:"auto", overflow:"hidden"}}>
 //                                         <div style={{fontSize:'35px',paddingTop:'40px', color:"#F4623A", fontWeight:"bold", textAlign:"left"}}>Certificate</div>
 //                                     </div>
@@ -147,7 +145,7 @@ import styled from 'styled-components';
 //                         </div>
 //                     </div>
 //                 </div>
-//                 <div style={{margin:"auto", width:"1750px"}}>
+//                 <div style={{margin:"50px auto", width:"1750px"}}>
 //                     <div className="skill-chart">
 //                         {skills.map((skillObj, index) => (
 //                             <SkillBar key={index} skill={skillObj.skill} level={skillObj.level} isInView={isInView} />
@@ -160,11 +158,12 @@ import styled from 'styled-components';
 // });
 
 // export default Skill;
+
 const skills = [
     { skill: 'HTML5', level: 80 },
     { skill: 'CSS3', level: 80 },
     { skill: 'JavaScript', level: 60 },
-    // { skill: 'TypeScript', level: 30 },
+    { skill: 'TypeScript', level: 30 },
     // { skill: 'jQuery', level: 30 },
     { skill: 'React', level: 70 },
     // { skill: 'React Query', level: 30 },
@@ -216,7 +215,7 @@ const skills = [
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_html.png`} alt='html' /></div>
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_css.png`} alt='css' /></div>
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_javascript.png`} alt='javascript' /></div>
-                {/* <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_typescript.png`} alt='typescript' /></div> */}
+                <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_typescript.png`} alt='typescript' /></div>
                 {/* <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_jquery.png`} alt='jquery' /></div> */}
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_react.png`} alt='react' /></div>
                 {/* <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_reactquery.png`} alt='react query' /></div> */}
@@ -229,8 +228,8 @@ const skills = [
               <div className="skill-title">Backend</div>
               <div className="skill-imgs">
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/skillimg_java.png`} alt='java' /></div>
-                <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/skillimg_spring.png`} alt='spring' /></div>
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/skillimg_node.png`} alt='node' /></div>
+                <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/skillimg_spring.png`} alt='spring' /></div>
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/skillimg_oracle.png`} alt='oracle' /></div>
               </div>
             </div>
@@ -243,13 +242,13 @@ const skills = [
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/version_control/github.png`} alt='github' /></div>
               </div>
             </div>
-            {/* <div className="skill-card">
+            <div className="skill-card">
               <div className="skill-title">Certificate</div>
               <div className="skill-imgs">
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/certificate/qq.png`} alt='qnet' /></div>
-                <div className="skill_desc">정보처리산업기사 (필기 + 실기)</div>
+                <div className="skill_desc">정보처리산업기사 (필기)</div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="skill-chart">
