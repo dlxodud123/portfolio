@@ -163,8 +163,7 @@ const skills = [
     { skill: 'HTML5', level: 80 },
     { skill: 'CSS3', level: 80 },
     { skill: 'JavaScript', level: 60 },
-    { skill: 'TypeScript', level: 30 },
-    // { skill: 'jQuery', level: 30 },
+    { skill: 'TypeScript', level: 20 },
     { skill: 'React', level: 70 },
     // { skill: 'React Query', level: 30 },
     { skill: 'Bootstrap', level: 60 },
@@ -216,7 +215,6 @@ const skills = [
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_css.png`} alt='css' /></div>
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_javascript.png`} alt='javascript' /></div>
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_typescript.png`} alt='typescript' /></div>
-                {/* <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_jquery.png`} alt='jquery' /></div> */}
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_react.png`} alt='react' /></div>
                 {/* <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_reactquery.png`} alt='react query' /></div> */}
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/frontend/skillimg_bootstrap.png`} alt='bootstrap' /></div>

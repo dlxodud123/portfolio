@@ -5,9 +5,9 @@ const Top = () => {
         <>
             <div className='top_container'>
                 
-                <p className='top-text' style={{fontSize:'100px',margin:'0'}}>
+                <p className='top-text' style={{fontSize:'90px',margin:'0'}}>
                   안녕하세요.<br></br>
-                  이태영
+                  프론트 엔드 개발자 이태영입니다.
                 </p>
                 
             </div>

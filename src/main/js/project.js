@@ -55,6 +55,22 @@ const Project = forwardRef((props, ref) => {
             <div className="project-content">
                 <div className="project-card">
                     <div className="project-card-img">
+                        <img src={`${process.env.PUBLIC_URL}/img/project/project2.png`} alt='project1' />
+                    </div>
+                    <div className="project-card-desc">
+                       코인 모의 투자 사이트 프로젝트<br />
+                        <label>2024.04.11 ~ 2024.04.26</label>
+                        <p>업비트 사이트를 벤치마킹하여 진행하였습니다.(node.js)</p>
+                        <p>업비트 웹 사이트 : </p>
+                        <a className='address' href='https://upbit.com/home' >https://upbit.com/</a>
+                        <p>깃허브 소스 코드 : </p>
+                        <a className='address' href='https://github.com/youngho3358/coin_investment' >https://github.com/youngho3358/coin_investment</a>
+                        {/* <p>ppt : </p>
+                        <a className='address' href='https://docs.google.com/presentation/d/1FhtH7zdxHCUmf0rAK6oeOYmYHFsV6ROCL8g23di3FOE/edit#slide=id.g2ef1808f267_1_174' >ppt url</a> */}
+                    </div>
+                </div>
+                <div className="project-card">
+                    <div className="project-card-img">
                         <img src={`${process.env.PUBLIC_URL}/img/project/project1.png`} alt='project1' />
                     </div>
                     <div className="project-card-desc">
@@ -66,24 +82,11 @@ const Project = forwardRef((props, ref) => {
                         <br/>
                         <p>깃허브 소스 코드 : </p>
                         <a className='address' href='https://github.com/dlxodud123/fream_front' >https://github.com/dlxodud123/fream_front</a>
-                        <p>ppt : </p>
-                        <a className='address' href='https://docs.google.com/presentation/d/1FhtH7zdxHCUmf0rAK6oeOYmYHFsV6ROCL8g23di3FOE/edit#slide=id.g2ef1808f267_1_174' >ppt url</a>
+                        {/* <p>ppt : </p>
+                        <a className='address' href='https://docs.google.com/presentation/d/1FhtH7zdxHCUmf0rAK6oeOYmYHFsV6ROCL8g23di3FOE/edit#slide=id.g2ef1808f267_1_174' >ppt url</a> */}
                     </div>
                 </div>
-                <div className="project-card">
-                    <div className="project-card-img">
-                        <img src={`${process.env.PUBLIC_URL}/img/project/project2.png`} alt='project1' />
-                    </div>
-                    <div className="project-card-desc">
-                       협업 툴 프로젝트<br />
-                        <label>2024.04.11 ~ 2024.04.25</label>
-                        <p>협업 툴 프로젝트 진행하였습니다.(node.js)</p>
-                        <p>깃허브 소스 코드 : </p>
-                        <a className='address' href='https://github.com/KimJaeHwan98/ForWebPrjBs' >https://github.com/KimJaeHwan98/ForWebPrjBs</a>
-                        <p>ppt : </p>
-                        <a className='address' href='https://docs.google.com/presentation/d/1FhtH7zdxHCUmf0rAK6oeOYmYHFsV6ROCL8g23di3FOE/edit#slide=id.g2ef1808f267_1_174' >ppt url</a>
-                    </div>
-                </div>
+                
                 <div className="project-card">
                     <div className="project-card-img">
                         <img src={`${process.env.PUBLIC_URL}/img/project/project3.png`} alt='project1' />
@@ -91,9 +94,9 @@ const Project = forwardRef((props, ref) => {
                     <div className="project-card-desc">
                         포트폴리오 프로젝트<br />
                         <label>2024.07.25 ~ 2024.07.30</label>
-                        <p>입사지원 포트폴리오 제작 프로젝트 진행하였습니다.(React)</p>
+                        <p>웹 포트폴리오 제작 프로젝트 진행하였습니다.(React)</p>
                         <p>깃허브 소스 코드 : </p>
-                        <a className='address' href='https://github.com/KimJaeHwan98/portfolio' >https://github.com/KimJaeHwan98/portfolio</a>
+                        <a className='address' href='https://github.com/dlxodud123/portfolio' >https://github.com/dlxodud123/portfolio</a>
                     </div>
                 </div>
             </div>
