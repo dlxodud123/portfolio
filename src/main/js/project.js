@@ -1,51 +1,6 @@
 import { forwardRef } from 'react';
 import './../css/project.css';
 
-// const Project = forwardRef((props, ref) => {
-//     return(
-//         <>
-//             <div ref={ref} style={{background:'#1d809f', height:'1500px'}}>
-//                 <div style={{width:"500px", margin:"auto"}}>
-//                     <div style={{textAlign:'center',fontSize:'55px',paddingTop:'30px',borderBottom:'1px solid gray',width:'300px', margin:'auto', fontWeight:"bold", height:"90px", color:"white"}}>PROJECTS</div>
-//                 </div>
-//                 <div style={{display:"flex", margin:"auto", width:"1280px"}}>
-//                     <div style={{textAlign:'center', width:"1280px"}}>
-
-                        
-//                         <div style={{backgroundColor:'#ffffff',width:'1280px',height:'550px',boxShadow:'1rem 1rem 1rem 1rem rgb(68 68 68 / 20%)',borderRadius:'30px', marginTop:"50px"}}>
-//                         <div style={{display:"flex"}}>
-//                                     <div style={{textAlign:"left", marginLeft:"20px",marginTop:'20px'}}>
-//                                         <img style={{width:'550px',height:'400px', marginTop:"50px",marginLeft:'60px',border:'2px solid black',borderRadius:'10px'}} src={`${process.env.PUBLIC_URL}/img/project/project1.png`} alt='itbank'></img>
-//                                     </div>
-//                                     <div style={{fontSize:"25px", fontWeight:"bold", marginLeft:"80px", marginTop:"80px", textAlign:"left"}}>
-//                                         KREAM 웹 사이트 클론 프로젝트<br></br><label style={{fontWeight:"lighter"}}>2024.01.31 ~ 2024.08.02</label>
-//                                         <p style={{fontWeight:"lighter"}}>sdasdasd</p>
-//                                     </div>
-//                                 </div>
-//                         </div>
-
-
-//                         <div style={{backgroundColor:'#ffffff',width:'1280px',height:'550px',boxShadow:'1rem 1rem 1rem 1rem rgb(68 68 68 / 20%)',borderRadius:'30px', marginTop:"50px"}}>
-//                         <div style={{display:"flex"}}>
-//                                     <div style={{textAlign:"left", marginLeft:"20px",marginTop:'20px'}}>
-//                                         <img style={{width:'550px',height:'400px', marginTop:"50px",marginLeft:'60px',border:'2px solid black',borderRadius:'10px'}} src={`${process.env.PUBLIC_URL}/img/project/project1.png`} alt='itbank'></img>
-//                                     </div>
-//                                     <div style={{fontSize:"25px", fontWeight:"bold", marginLeft:"80px", marginTop:"80px", textAlign:"left"}}>
-//                                         KREAM 웹 사이트 클론 프로젝트<br></br><label style={{fontWeight:"lighter"}}>2024.01.31 ~ 2024.08.02</label>
-//                                         <p style={{fontWeight:"lighter"}}>sdasdasd</p>
-//                                     </div>
-//                                 </div>
-                                
-//                         </div>
-//                     </div>
-
-//                 </div>
-//             </div>
-//         </>
-//     )
-// });
-
-// export default Project;
 const Project = forwardRef((props, ref) => {
     return (
         <div ref={ref} className="project-container">
@@ -65,8 +20,8 @@ const Project = forwardRef((props, ref) => {
                         <a className='address' href='https://upbit.com/home' >https://upbit.com/</a>
                         <p>깃허브 소스 코드 : </p>
                         <a className='address' href='https://github.com/youngho3358/coin_investment' >https://github.com/youngho3358/coin_investment</a>
-                        {/* <p>ppt : </p>
-                        <a className='address' href='https://docs.google.com/presentation/d/1FhtH7zdxHCUmf0rAK6oeOYmYHFsV6ROCL8g23di3FOE/edit#slide=id.g2ef1808f267_1_174' >ppt url</a> */}
+                        <p>ppt : </p>
+                        <a className='address' href='https://docs.google.com/presentation/d/1-Rrq_4OcEt8OrCvBSL9ozBoFl_NhuiCjA3takDTA0nM/edit?usp=sharing' >coin_investment ppt</a>
                     </div>
                 </div>
                 <div className="project-card">
@@ -82,8 +37,8 @@ const Project = forwardRef((props, ref) => {
                         <br/>
                         <p>깃허브 소스 코드 : </p>
                         <a className='address' href='https://github.com/dlxodud123/fream_front' >https://github.com/dlxodud123/fream_front</a>
-                        {/* <p>ppt : </p>
-                        <a className='address' href='https://docs.google.com/presentation/d/1FhtH7zdxHCUmf0rAK6oeOYmYHFsV6ROCL8g23di3FOE/edit#slide=id.g2ef1808f267_1_174' >ppt url</a> */}
+                        <p>ppt : </p>
+                        <a className='address' href='https://docs.google.com/presentation/d/1bSQ0nhEOJSQMB99D6ybtWT4B_U0mZoaWheh7HPIXlRw/edit?usp=sharing' >Kream clone project ppt</a>
                     </div>
                 </div>
                 
@@ -93,7 +48,7 @@ const Project = forwardRef((props, ref) => {
                     </div>
                     <div className="project-card-desc">
                         포트폴리오 프로젝트<br />
-                        <label>2024.07.25 ~ 2024.07.30</label>
+                        <label>2024.08.05 ~ 2024.08.12</label>
                         <p>웹 포트폴리오 제작 프로젝트 진행하였습니다.(React)</p>
                         <p>깃허브 소스 코드 : </p>
                         <a className='address' href='https://github.com/dlxodud123/portfolio' >https://github.com/dlxodud123/portfolio</a>

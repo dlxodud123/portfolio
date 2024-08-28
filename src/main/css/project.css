@@ -1,6 +1,6 @@
 .project-container {
     background: #1d809f;
-    height: 2100px;
+    height: 2200px;
     padding: 50px;
 }
 
@@ -27,7 +27,7 @@
 .project-card {
     background-color: #ffffff;
     width: 1280px;
-    height: 550px;
+    height: 600px;
     box-shadow: 1rem 1rem 1rem 1rem rgb(68 68 68 / 20%);
     border-radius: 30px;
     margin-top: 50px;
