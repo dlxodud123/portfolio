@@ -58,13 +58,13 @@ const Project = forwardRef((props, ref) => {
                     </div>
                 </div>
 
-                {/* <div className="project-card">
+                <div className="project-card">
                     <div className="project-card-img">
                         <img src={`${process.env.PUBLIC_URL}/img/project/project4.png`} alt='project1' />
                     </div>
                     <div className="project-card-desc">
-                        KREAM 웹 사이트 클론 프로젝트2<br />
-                        <label>2024.00.00 ~ 2024.00.00</label>
+                        KREAM 웹 사이트 클론 프로젝트 2<br />
+                        <label>2024.01.09 ~ 2024.01.24</label>
                         <p>KREAM 웹 사이트 클론 프로젝트를 진행하였습니다.<br />(React, TypeScript)</p>
                         <p>크림 웹 사이트 : </p>
                         <a className='address' href='https://kream.co.kr/' >kream.co.kr/</a>
@@ -72,9 +72,9 @@ const Project = forwardRef((props, ref) => {
                         <p>깃허브 소스 코드 : </p>
                         <a className='address' href='https://github.com/junhyeong9812/improve_fream_front' >github.com/junhyeong9812/improve_fream_front</a>
                         <p>ppt : </p>
-                        <a className='address' href='' >Kream clone project2 ppt</a>
+                        <a className='address' href='https://docs.google.com/presentation/d/1hYuHlxRyZjYalu4KjAQbjxbkolknE5Nq7U9i6n3URh4/edit#slide=id.g32db5282c7f_0_51' >Kream clone project 2 ppt</a>
                     </div>
-                </div> */}
+                </div>
                 
                 <div className="project-card">
                     <div className="project-card-img">
