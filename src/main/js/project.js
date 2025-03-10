@@ -49,7 +49,7 @@ const Project = forwardRef((props, ref) => {
                     </div>
                     <div className="project-card-desc">
                         랜덤 채팅 & 비디오 프로젝트<br />
-                        <label>2024.11.01 ~ 2024.01.07</label>
+                        <label>2024.11.01 ~ 2025.01.07</label>
                         <p>랜덤 채팅 및 비디오 프로젝트를 진행하였습니다.<br />(React)</p>
                         <p>깃허브 소스 코드 : </p>
                         <a className='address' href='https://github.com/dlxodud123/randomchat_front' >github.com/dlxodud123/randomchat_front</a>
@@ -64,7 +64,7 @@ const Project = forwardRef((props, ref) => {
                     </div>
                     <div className="project-card-desc">
                         KREAM 웹 사이트 클론 프로젝트 2<br />
-                        <label>2024.01.09 ~ 2024.01.24</label>
+                        <label>2025.01.09 ~ 2025.01.24</label>
                         <p>KREAM 웹 사이트 클론 프로젝트를 진행하였습니다.<br />(React, TypeScript)</p>
                         <p>크림 웹 사이트 : </p>
                         <a className='address' href='https://kream.co.kr/' >kream.co.kr/</a>
