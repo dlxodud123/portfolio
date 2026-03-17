@@ -1,12 +1,16 @@
 .project-container {
     background: #1d809f;
     height: 3600px;
-    /* height: 2900px; */
+    padding: 50px;
+}
+.project-backend-container{
+    background: #1d809f;
+    height: 800px;
     padding: 50px;
 }
 
 .project-header {
-    width: 500px;
+    width: 700px;
     margin: auto;
     text-align: center;
     font-size: 55px;

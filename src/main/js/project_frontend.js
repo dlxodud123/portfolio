@@ -1,11 +1,11 @@
 import { forwardRef } from 'react';
 import './../css/project.css';
 
-const Project = forwardRef((props, ref) => {
+const Project_frontend = forwardRef((props, ref) => {
     return (
         <div ref={ref} className="project-container">
             <div className="project-header">
-                <div>PROJECTS</div>
+                <div>FRONTEND PROJECTS</div>
             </div>
             <div className="project-content">
                 <div className="project-card">
@@ -75,7 +75,7 @@ const Project = forwardRef((props, ref) => {
                         <a className='address' href='https://docs.google.com/presentation/d/1hYuHlxRyZjYalu4KjAQbjxbkolknE5Nq7U9i6n3URh4/edit#slide=id.g32db5282c7f_0_51' >Kream clone project 2 ppt</a>
                     </div>
                 </div>
-                
+
                 <div className="project-card">
                     <div className="project-card-img">
                         <img src={`${process.env.PUBLIC_URL}/img/project/project3.png`} alt='project1' />
@@ -93,4 +93,4 @@ const Project = forwardRef((props, ref) => {
     );
 });
 
-export default Project;
+export default Project_frontend;

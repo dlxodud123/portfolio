@@ -5,10 +5,11 @@ import Top from './top';
 import Aboutme from "./aboutme";
 import Skill from './skill';
 import Archiving from './archiving';
-import Project from './project';
+import Project_frontend from './project_frontend';
 import Activities from './activities';
 import { FaArrowUp } from "react-icons/fa6";
 import End from './end.js';
+import Project_backend from './project_backend.js';
 
 const Potfolio_form = () => {
   const aboutMeRef = useRef(null);
@@ -39,8 +40,9 @@ const Potfolio_form = () => {
       <Top />
       <Aboutme ref={aboutMeRef} />
       <Skill ref={skillsRef} />
-      <Archiving ref={archivingRef} />    
-      <Project ref={projectRef} />  
+      <Archiving ref={archivingRef} />
+      <Project_backend ref={projectRef} />
+      <Project_frontend />
       <Activities ref={activitiesRef} />
       <End />
       <button onClick={handleScrollToTop} className="scroll-to-top"><FaArrowUp size={40} /></button>

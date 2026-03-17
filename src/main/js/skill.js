@@ -8,12 +8,12 @@ const skills = [
     { skill: 'JavaScript', level: 60 },
     { skill: 'TypeScript', level: 20 },
     { skill: 'React', level: 60 },
-    // { skill: 'React Query', level: 30 },
     { skill: 'Bootstrap', level: 40 },
-    { skill: 'JAVA', level: 50 },
-    { skill: 'Spring', level: 40 },
+    { skill: 'JAVA', level: 80 },
     { skill: 'node.js', level: 50 },
-    { skill: 'Oracle', level: 30 },
+    { skill: 'SpringDataJPA', level: 80 },
+    { skill: 'Querydsl', level: 80 },
+    { skill: 'MySQL', level: 80 },
     { skill: 'Git', level: 40 },
     { skill: 'Github', level: 40 },
   ];
@@ -71,7 +71,10 @@ const skills = [
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/skillimg_java.png`} alt='java' /></div>
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/skillimg_node.png`} alt='node' /></div>
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/skillimg_spring.png`} alt='spring' /></div>
-                <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/skillimg_oracle.png`} alt='oracle' /></div>
+                <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/jpa.jpeg`} alt='jpa' /></div>
+                <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/querydsl.jpeg`} alt='dsl' /></div>
+                <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/mysql.jpeg`} alt='mysql' /></div>
+                {/* <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/backend/skillimg_oracle.png`} alt='oracle' /></div> */}
               </div>
             </div>
           </div>
@@ -87,7 +90,15 @@ const skills = [
               <div className="skill-title">Certificate</div>
               <div className="skill-imgs">
                 <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/certificate/qq.png`} alt='qnet' /></div>
-                <div className="skill_desc">정보처리산업기사 (필기)</div>
+                <div className="skill_desc">정보처리산업기사</div>
+              </div>
+              <div className="skill-imgs">
+                <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/certificate/sqld.jpeg`} alt='sqld' /></div>
+                <div className="skill_desc">SQLD(Developer)</div>
+              </div>
+              <div className="skill-imgs">
+                <div className="skill_img"><img src={`${process.env.PUBLIC_URL}/img/certificate/linux.png`} alt='linux' /></div>
+                <div className="skill_desc">리눅스 마스터 2급</div>
               </div>
             </div>
           </div>

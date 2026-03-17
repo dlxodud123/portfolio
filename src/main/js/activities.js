@@ -17,12 +17,12 @@ const Activities = forwardRef((props, ref) => {
                         KG IT뱅크 부트 캠프 수료<br /><label>2024.01.31 ~ 2024.08.02</label>
                     </div>
                 </div>
-                <div className="activities-card" onClick={() => { window.location.href = 'https://codingapple.com/course/react-basic/' }}>
+                <div className="activities-card" onClick={() => { window.location.href = 'https://codingapple.com/course/typescript-crash-course/' }}>
                     <div className="activities-img">
-                        <img src={`${process.env.PUBLIC_URL}/img/activities/코딩애플.png`} alt='coding apple react' />
+                        <img src={`${process.env.PUBLIC_URL}/img/activities/인프런.jpeg`} alt='coding apple typescript' />
                     </div>
                     <div className="activities-description">
-                        코딩 애플 React 강의 수료
+                        인프런 Spring DB, Spring Boot, JPA, Spring Data JPA, Querydsl 강의 수료
                     </div>
                 </div>
                 <div className="activities-card" onClick={() => { window.location.href = 'https://codingapple.com/course/typescript-crash-course/' }}>
@@ -30,7 +30,7 @@ const Activities = forwardRef((props, ref) => {
                         <img src={`${process.env.PUBLIC_URL}/img/activities/코딩애플.png`} alt='coding apple typescript' />
                     </div>
                     <div className="activities-description">
-                        코딩 애플 TypeScript 강의 수료
+                        코딩 애플 React, TypeScript 강의 수료
                     </div>
                 </div>
             </div>

@@ -76,7 +76,8 @@
   .skill_desc {
     font-size: 25px;
     font-weight: bold;
-    margin-top: 8px;
+    /* margin-top: 8px; */
+    margin-top: 50px;
     text-align: left;
   }
   .skill_img:hover {
